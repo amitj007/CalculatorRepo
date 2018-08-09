@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.test.calc</groupId>
 		<artifactId>CalculatorParent</artifactId>
-		<version>1.0.0-RELEASE</version>
+		<version>1.0.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>PrintProperties</artifactId>
