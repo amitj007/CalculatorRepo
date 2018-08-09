@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test.calc</groupId>
 	<artifactId>CalculatorParent</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -32,7 +32,7 @@
 		<connection>scm:git:git@github.com:amitj007/CalculatorRepo.git</connection>
 		<developerConnection>scm:git:git@github.com:amitj007/CalculatorRepo.git</developerConnection>
 		<url>scm:git:git@github.com:amitj007/CalculatorRepo.git</url>
-	  <tag>v1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 
@@ -132,7 +132,7 @@
 			<dependency>
 				<groupId>com.test.calc</groupId>
 				<artifactId>CalculatorImpl</artifactId>
-				<version>1.0.0</version>
+				<version>1.0.1-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
