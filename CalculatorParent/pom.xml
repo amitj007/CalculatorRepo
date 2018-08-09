@@ -23,7 +23,18 @@
 			<id>my-snapshots</id>
 			<url>http://localhost:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
+		<repository>
+			<id>my-releases</id>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
 	</distributionManagement>
+
+	<scm>
+		<connection>scm:git@github.com:amitj007/CalculatorRepo.git</connection>
+		<developerConnection>scm:git@github.com:amitj007/CalculatorRepo.git</developerConnection>
+		<url>scm:git@github.com:amitj007/CalculatorRepo.git</url>
+	</scm>
+
 
 	<build>
 		<pluginManagement>
@@ -102,6 +113,15 @@
 							</goals>
 						</execution>
 					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<tagNameFormat>v@{project.version}</tagNameFormat>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
