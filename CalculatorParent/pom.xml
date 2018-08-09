@@ -30,9 +30,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git@github.com:amitj007/CalculatorRepo.git</connection>
-		<developerConnection>scm:git@github.com:amitj007/CalculatorRepo.git</developerConnection>
-		<url>scm:git@github.com:amitj007/CalculatorRepo.git</url>
+		<connection>scm:git:git@github.com:amitj007/CalculatorRepo.git</connection>
+		<developerConnection>scm:git:git@github.com:amitj007/CalculatorRepo.git</developerConnection>
+		<url>scm:git:git@github.com:amitj007/CalculatorRepo.git</url>
 	</scm>
 
 
